@@ -22,7 +22,7 @@ body{
     background-size: cover;
     position: relative;
     height: 600px;
-    background-image: url(morinocafe.jpg);
+    background-image: url(../morinocafe.jpg);
 }
 
 .cafe {
