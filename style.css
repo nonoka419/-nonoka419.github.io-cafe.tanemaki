@@ -18,7 +18,7 @@ body{
 }
 
 
-.big-bg img {
+.big-bg {
     background-size: cover;
     position: relative;
     height: 600px;
