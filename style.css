@@ -4,11 +4,13 @@ body{
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #fffae9;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #fff6d7;
 }
 
 .logo {
-    width: 200px;
+    width: 300px;
     margin-top: 12px;
 }
 
@@ -22,17 +24,29 @@ body{
     background-size: cover;
     position: relative;
     height: 600px;
-    background-image: url(morinocafe.jpg);
+    background-image: url(image/cafe.jpg);
+}
+
+.main-key {
+    font-family: sans-serif;
+    font-style: bold;
+    color: #8a5233;
+}
+
+#concept p {
+    padding: 10px 0;
+    margin: 10px 0;
 }
 
 .cafe {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #333;
     font-size: 2.0rem;
-    font-weight: bold;
+    font-weight: normal;
     background: rgba(255, 255, 255, 0.7);
     padding: 10px 20px;
     border-radius: 8px;
@@ -47,15 +61,97 @@ section img {
 main {
     text-align: center;
     padding: 50px 40px;
+}
 
+section {
+    margin: 80px 0;
 }
 
 .link {
-    color: #004104;
+    color: #44a06d;
     text-align: center;
     text-decoration-line: underline;
-     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#menu .about {
+   padding: 20px 0 50px 0;
+}
+
+.menu-list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 3%;
+}
+
+.menu-list p {
+    font-size: 17px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.menu-item .name {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.dots {
+    flex: 1;
+    border-bottom: 2px dotted #000000;
+    height: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu-item .price {
+    flex: 0 0 auto;
+    font-weight: 500;
+    color: #8a5233;
+}
+
+.menu-list p {
+    color: #333;
+    display: flex;
+    padding: 10px 0 10px 0;
+
+}
+
+#menu img {
+    margin: 30px 0 20px 0;
+
+}
+
+.access-list {
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    text-align: left;
+    line-height: 2.0;
+}
+
+.access-list li {
+    margin: 6px 0;
+}
+
+.info-list {
+    font-size: 18px;
+    margin: 20px auto;
+    text-align: center;
+    display: inline-block;
+    text-align: left;
+    line-height: 2.0;
 }
 
 .copyright {
@@ -63,7 +159,7 @@ main {
 }
 
 footer {
-    background-color: #f8e8b9;
+    background-color: #805b45;
     padding: 15px;
     text-align: center;
     margin-top: 30px;
