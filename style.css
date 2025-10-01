@@ -24,7 +24,7 @@ body{
     background-size: cover;
     position: relative;
     height: 600px;
-    background-image: url(cafe.jpg);
+    background-image: url("cafe.jpg");
 }
 
 .main-key {
