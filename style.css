@@ -75,8 +75,17 @@ section {
     padding-bottom: 20px;
 }
 
+#menu {
+    max-width: 900px;
+    padding: 10px 30px;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 3%;
+}
+
 #menu .about {
    padding: 20px 0 50px 0;
+   text-decoration-line: underline;
 }
 
 .menu-list {
